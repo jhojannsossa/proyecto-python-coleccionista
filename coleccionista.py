@@ -32,3 +32,15 @@ catalog.append(pieza)
 
 categorias_set.add(category)
     print("-" * 40)
+
+print("\n======================================================")
+print("               RESUMEN DEL CATÁLOGO                   ")
+print("======================================================")
+
+for pieza in catalog:
+    print(f"ID: {pieza['id']} | Nombre: {pieza['name']} | Categoría: {pieza['category']} | Precio: ${pieza['price']} | Estado: {pieza['status']}")
+    print(f"Descripción: {pieza['description']}")
+    print("-" * 50)
+
+print(f"\nCantidad total de piezas: {len(catalog)}")
+print(f"Categorías únicas ({len(categorias_set)} en total): {categorias_set}")
