@@ -28,3 +28,5 @@ pieza = {
         "description": description
     }
 
+catalog.append(pieza)
+
