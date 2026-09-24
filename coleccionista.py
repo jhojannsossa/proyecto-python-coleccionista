@@ -18,3 +18,13 @@ for i in range(cantidad_piezas):
     price = float(input("Precio (número decimal): "))
     status = input("Estado (disponible / reservada / vendida): ")
     description = input("Descripción (debe incluir 'usada' o 'certificada'): ")
+
+pieza = {
+        "id": id_pieza,
+        "name": name,
+        "category": category,
+        "price": price,
+        "status": status,
+        "description": description
+    }
+
