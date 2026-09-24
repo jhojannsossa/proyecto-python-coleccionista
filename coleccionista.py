@@ -30,3 +30,5 @@ pieza = {
 
 catalog.append(pieza)
 
+categorias_set.add(category)
+    print("-" * 40)
