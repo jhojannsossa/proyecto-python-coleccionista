@@ -19,7 +19,8 @@ for i in range(cantidad_piezas):
     status = input("Estado (disponible / reservada / vendida): ")
     description = input("Descripción (debe incluir 'usada' o 'certificada'): ")
 
-pieza = {
+
+    pieza = {
         "id": id_pieza,
         "name": name,
         "category": category,
@@ -28,9 +29,11 @@ pieza = {
         "description": description
     }
 
-catalog.append(pieza)
 
-categorias_set.add(category)
+    catalog.append(pieza)
+
+
+    categorias_set.add(category)
     print("-" * 40)
 
 print("\n======================================================")
